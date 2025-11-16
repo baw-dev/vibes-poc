@@ -1,0 +1,11 @@
+- Goal: Create tests mapped to test-spec.md.
+- Outputs:
+    - Apex tests in force-app/main/default/classes/*Test.cls (+ -meta.xml).
+    - LWC Jest tests under force-app/main/default/lwc//**tests**/*.test.js.
+- Requirements:
+    - Apex use SeeAllData=false, create own records, assert messages.
+    - LWC tests cover DOM, events, wire adapters; run with sfdx-lwc-jest.
+    - Strive for ≥80% coverage of package classes; ensure version-create passes --codecoverage.
+- Post-steps:
+    - Run npm test and sf apex run test --test-level RunLocalTests.
+    - Commit with test: prefix.

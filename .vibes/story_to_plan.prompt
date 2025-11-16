@@ -1,0 +1,8 @@
+- Goal: Turn the user story into a concrete plan and test criteria.
+- Inputs the assistant sees: user story text, current repo, scratch org alias.
+- Output files to create:
+    - docs/design.md (summary, objects/fields, validation, UI, data impacts, risks)
+    - docs/test-spec.md (acceptance criteria → test cases)
+    - change-list.json (array of changes with type, path, action)
+- Constraints: respect unlocked package boundaries (force-app), no org-only changes.
+- Example acceptance criteria format: Given/When/Then bullets.

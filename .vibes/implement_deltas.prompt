@@ -1,0 +1,12 @@
+- Goal: Apply the change-list.json into force-app.
+- Required actions:
+    - Add/modify metadata files exactly under force-app/main/default.
+    - Include profile/perm set updates for FLS and assignment.
+    - Update layouts or FlexiPages so the UI is visible after install.
+    - Generate sample data scripts if needed (sf data tree).
+- Validations:
+    - Run sfdx source:deploy (or sf project deploy start) to the current scratch org.
+    - Fix compile errors; keep changes idempotent.
+- Output:
+    - Modified files plus docs/CHANGELOG.md entry.
+    - Commit with conventional message (e.g., feat: case severity…).
