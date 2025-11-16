@@ -31,7 +31,7 @@
      sf apex run test -o integ --tests ".*" --result-format human
 
 ## Approvals
-- UAT: GitHub protected environment; approver: you
+- UAT: GitHub protected environment; approver: baw
 
 ## Rollback
 - Install previous package:

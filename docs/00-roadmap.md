@@ -17,7 +17,7 @@
 - Rollback time to previous package ≤ 30 minutes
 
 ## Milestones
-1. M1 — Repo + tooling ready (Owner: You, Target: 2025-11-15) ✅
+1. M1 — Repo + tooling ready (Owner: baw, Target: 2025-11-15) ✅
 2. M2 — First package version and Integration deploy (Target: YYYY-MM-DD)
 3. M3 — UAT approval gate and deploy (Target: YYYY-MM-DD)
 4. M4 — Prod demo deploy (Target: YYYY-MM-DD)

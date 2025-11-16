@@ -28,5 +28,5 @@ Format follows Conventional Commits types grouped by release.
 ### Fixed
 - 
 
-[Unreleased]: https://github.com/<your-org-or-user>/vibes-poc/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/<your-org-or-user>/vibes-poc/releases/tag/v0.1.0
+[Unreleased]: https://github.com/baw-dev/vibes-poc/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/baw-dev/vibes-poc/releases/tag/v0.1.0

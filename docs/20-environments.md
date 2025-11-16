@@ -18,7 +18,7 @@
 
 ## Access & Users
 - CI auth: SFDX auth URLs stored as GitHub Secrets (SFDX_AUTH_URL_INTEG, SFDX_AUTH_URL_UAT, SFDX_AUTH_URL_PROD_DEMO)
-- Approvals: you (solo developer) via GitHub protected environment
+- Approvals: baw via GitHub protected environment
 
 ## Limits & Quotas
 - Dev Hub trial scratch quotas; prefer short-lived scratch orgs

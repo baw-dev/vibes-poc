@@ -11,7 +11,7 @@
    Smoke:
    sf apex run test -o integ --tests ".*"
 3) Request UAT approval (GitHub protected environment):
-   Approver: you
+   Approver: baw
 4) UAT deploy (post-approval):
    sf package install --package "service-cases@latest" -o uat --wait 30 --noprompt
 5) Optional Prod demo:
@@ -23,4 +23,4 @@
   sf package install --package <prev-04t> -o uat --wait 30 --noprompt
 
 ## Contacts
-- Owner/Approver: You (Email)
+- Owner/Approver: baw (Email)
