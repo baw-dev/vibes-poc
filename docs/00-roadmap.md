@@ -45,7 +45,7 @@
 ### 2025-11-15
 - Goals:
   - Set up accounts and orgs; initialize project and package
-  - Authenticate Dev Hub; add scratch helper; prep Vibes prompts (optional)
+  - Authenticate Dev Hub; add scratch helper; prep Vibes prompts
 - Actions:
   - Installed tools: VS Code 1.106.0 (arm64, commit ac4cbdf…), Node.js v25.2.0, Git 2.39.5, Salesforce CLI @salesforce/cli/2.112.6 (node v22.21.0)
   - GitHub: https://github.com/baw-dev (public repo for free CI minutes)
@@ -68,6 +68,7 @@
   - Scratch org definition kept minimal (Apex enabled; Lightning)
   - Helper script scripts/org/start_story.sh added and made executable
   - Installed OpenJDK for Apex Language Server (brew install openjdk; openjdk 25.0.1)
+  - Added .vibes/ prompt presets
 - Decisions:
   - Use public repo to maximize free CI minutes (ADR planned)
   - Stick with SFDX auth URLs for POC simplicity
@@ -78,6 +79,5 @@
 - Next steps:
   - Add GitHub Actions workflow for PR checks and packaging
   - Generate SFDX auth URLs for integ/uat/proddemo and store in GitHub Secrets
-  - Optionally add .vibes/ prompt presets
 - Links:
   - Repo: https://github.com/baw-dev/vibes-poc
